@@ -1,0 +1,12 @@
+body {
+    position: relative;
+    height: 5000px;
+}
+.scroller{
+    background-color: blue;
+    height: 5px;
+    width: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
