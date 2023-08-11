@@ -52,7 +52,7 @@ window.addEventListener("scroll", () => {
 
 //event countdown
 
-let eventDate = new Date("Dec 31, 2023 23:59:59").getTime();
+let eventDate = new Date("Dec 31, 2025 23:59:59").getTime();
 
 let timeSpans = document.querySelectorAll(
   ".events .container .info .time .units .unite span:nth-child(1)"
