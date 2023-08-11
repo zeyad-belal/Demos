@@ -1,0 +1,85 @@
+body{
+  background-color: #ececec;
+}
+
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 800px;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 40px 30px;
+  border-radius: 5px 5px 50px 5px;
+  min-height: fit-content;
+}
+
+form{
+  display: flex;
+  gap: 25px;
+  position: relative;
+  margin-bottom: 50px;
+  padding: 5px;
+  width: 750px;
+}
+
+hr{
+  width: 80%;
+  background-color: rgba(213, 213, 213, 0.816);
+  height: 1px;
+  bottom: -40px;
+  border: none;
+}
+
+label{
+  display: flex;
+  flex-direction: column;
+}
+label span{
+  margin-bottom: 8px;
+  font-size: 10px;
+  font-weight: 600;
+  color: rgba(44, 44, 44, 0.833);
+  letter-spacing: 2px;
+}
+input{
+  max-width: 110px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  border-color: rgba(203, 203, 203, 0.332);
+  outline-color: blueviolet;
+}
+
+
+input::placeholder{
+  color: gray;
+  font-size: 17px;
+}
+
+.result{
+  display: flex;
+  flex-direction: column;
+  font-size: 50px;
+  font-weight: bold;
+  position: relative;
+  color: rgba(19, 19, 19, 0.833);
+}
+.result p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.result span{
+  color: blueviolet;
+}
+.result img{
+  background-color: blueviolet;
+  border-radius: 50%;
+  max-width: 35px;
+  height: auto;
+  padding: 13px;
+  position: absolute;
+  top: -35px;
+  right: 70px;
+  cursor: pointer;
+}
